@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    color: white;
 }
 body{
     background-color: rgb(35,35,35);
@@ -148,7 +149,7 @@ header{
     position: relative;
     bottom: 7px;
     height: 56px;
-}}
+}
 .section-heading2{
     font-size: 1.5em;
     font-weight:400;
@@ -210,13 +211,11 @@ header{
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    /* height: 490px; */
-    height: 90vh;
+    height: 490px;
     margin: 8px 0px;
     background-color: black;
     justify-content: space-around;
     align-items: center;
-    /* overflow-x: hidden; */
 }
 .section-sub-box{
     display: flex;
@@ -227,27 +226,24 @@ header{
     width: 950px;
     height: 340px;
     align-items: center;
-    text-overflow: hidden;
 }
 .section-text-box{
     background-color: transparent;
-    /* width: 500px; */
-    width: 53%;
+    width: 500px;
     text-indent: 0%;
     position: relative;
     bottom: 30px;
     right: 15px;
-    scale: 1.03;
-    
+    scale: 1.03; 
 }
- .section-heading1{
+ .section-heading1,.section2-heading1,.section3-heading1{
     font-size: 3rem;
     font-weight: 900;
     color: white;
     text-align: start;
     line-height:85px;
 }
-.section-heading2{
+.section-heading2,.section2-heading3,.section3-heading3{
     font-size: 1.5em;
     font-weight:400;
     color: white;
@@ -288,3 +284,80 @@ header{
     z-index: 2;
 }
 
+/* Section 2 starts from here */
+.section2-sub-box,.section3-sub-box{
+    display: flex;
+    position: relative;
+    width: 950px;
+    height: 400px;
+    overflow: hidden;
+}
+.section2-image-box{
+    /* scale: .8; */
+    top: 10px;
+    right: 5px;
+    position: relative;
+} 
+.st-image{
+    /* scale: .7; */
+    aspect-ratio: 3/2;
+    width: 480px;
+    height: 350px;
+}
+.stranger-thing-box{
+    display: flex;
+    position: absolute;
+    bottom: 75px;
+    right: 103px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    width: 275px;
+    height: 100px;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+.st-download-image{
+    margin: 5px 10px;  
+    height: 80px;
+
+}
+.st-download-box{
+   text-align: start;
+   /* padding: 10px 10px 8px 10px; */
+   padding: 0px 7px 0px 0px;
+
+}
+.st-download-box>span{text-align: start; font-size: 16px; font-weight: 500;}
+
+.st-download-box>p{ font-weight: 400; font-size: 14px; color: blue; text-align: left;}
+.st-download-gif{
+    width: 50px;
+    height: 60px;
+    margin: 10px 15px 10px 10px;
+    /* background-color: #fff; */
+    object-fit: contain;
+}
+.section2-textbox{
+    padding: 50px 0px 50px 5px;
+    text-align: start;
+}
+.section2-heading1{
+    line-height: 65px;
+}
+.section2-heading3{
+    margin: 15px 0px;
+}
+
+/* Section 3 styling starts from here */
+.section3-sub-box{
+    background-color: #000000;
+}
+.section3-textbox{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
