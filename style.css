@@ -211,7 +211,7 @@ header{
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    height: 490px;
+    height: 502px;
     margin: 8px 0px;
     background-color: black;
     justify-content: space-around;
@@ -236,14 +236,14 @@ header{
     right: 15px;
     scale: 1.03; 
 }
- .section-heading1,.section2-heading1,.section3-heading1{
+ .section-heading1,.section2-heading1,.section3-heading1,.section4-heading1{
     font-size: 3rem;
     font-weight: 900;
     color: white;
     text-align: start;
     line-height:85px;
 }
-.section-heading2,.section2-heading3,.section3-heading3{
+.section-heading2,.section2-heading3,.section3-heading3,.section4-heading3{
     font-size: 1.5em;
     font-weight:400;
     color: white;
@@ -285,12 +285,13 @@ header{
 }
 
 /* Section 2 starts from here */
-.section2-sub-box,.section3-sub-box{
+.section2-sub-box,.section3-sub-box{   /* this section is showing other nature than the sections*/
     display: flex;
     position: relative;
     width: 950px;
     height: 400px;
     overflow: hidden;
+    background-color: #000000;
 }
 .section2-image-box{
     /* scale: .8; */
@@ -342,17 +343,14 @@ header{
     padding: 50px 0px 50px 5px;
     text-align: start;
 }
-.section2-heading1{
+.section2-heading1,.section4-heading1{
     line-height: 65px;
 }
-.section2-heading3{
+.section2-heading3,.section4-heading3{
     margin: 15px 0px;
 }
 
 /* Section 3 styling starts from here */
-.section3-sub-box{
-    background-color: #000000;
-}
 .section3-textbox{
     display: flex;
     position: relative;
@@ -360,4 +358,45 @@ header{
     flex-direction: column;
     justify-content: center;
     width: 50%;
+}
+.sacred-games-box{
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    scale: 1.18;
+    aspect-ratio: 4 / 3;
+    top:45px;
+    left: 40px;
+}
+.sg-video-box{
+    background-color: #fff;
+    position: absolute;
+    z-index: -1;
+    left: 18%;
+    top: 6%;
+    overflow: hidden;
+    height: 175px;
+    width:245px
+}
+
+/* Section 4 styling starts from here */
+.section4-sub-box{
+    display: flex;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 950px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.kids-imagebox>img{
+    width:475px ;
+    height: 354px;
+    aspect-ratio: 4/3;
+
+}
+.section4-text-box{
+    margin: 5px;
+    text-align: start;
 }
