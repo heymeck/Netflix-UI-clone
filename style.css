@@ -478,3 +478,21 @@ header{
 .footer-getstarted{
     margin: inherit;
 }
+
+.footer-section2{
+   height: 400px;
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #000000;
+}
+.hyperlink-box{
+    display: flex;
+    width: 956px;
+    background-color: #020202;
+    height: 300px;
+}
+.footer-list-item{
+    display: inline-block;
+}
