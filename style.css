@@ -83,7 +83,7 @@ header{
     align-items: center;
     width: 125px;
     /* column-gap: 4px; */
-    border: 1px solid white;
+    border: 1px solid rgb(94,94,94);
     border-radius: 4px;
     height: 30px;
 }
@@ -497,6 +497,7 @@ header{
     width: inherit;
     height: max-content;
     text-align: start;
+    color: rgb(168,171,173);
 }
 
 .footer-list-item-container{
@@ -520,8 +521,17 @@ header{
 }
 .footer-list-links{
     font-size: 14px;
+    color: rgb(168,171,173);
     display: block;
     width: max-content;
     text-align: start;
     
+}
+.footer-lang{
+    margin: 25px 0px;
+}
+.last-line{
+    text-align: start;
+    font-size: 14px;
+    color: rgb(168,171,173);
 }
