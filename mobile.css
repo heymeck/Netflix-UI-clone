@@ -6,7 +6,7 @@ h1{
 }
 
 header {
-    height: 90dvh;
+    height: 100dvh;
 }
 
 .logo>img {
@@ -235,9 +235,7 @@ header {
         &>.sg-video-box{
             width: fit-content;
             height: fit-content;
-            @media  screen and (min-width:400px) and (max-width:500px) {
-                .sg-video-box{left: 22%;}
-            }
+
 
 
             &>video{
@@ -252,5 +250,33 @@ header {
     }
 }
 
+/* Section 4 starts from here */
+
+.section4{
+    height: fit-content;
+    &>.section4-sub-box{
+        padding: 50px 10px;
+        width: 100%;
+        height: fit-content;
+        flex-wrap: wrap;
+        & .kids-imagebox>img{
+            aspect-ratio: 4/3;
+            width: 100%;
+            height: 75vw;
+        }
+        &>.section4-text-box{
+            padding: 20px 10px;
+            &>.section4-heading1{
+                text-align: center;
+                line-height: normal;
+                font-size: 2rem;
+            }
+            &>h3{
+                text-align: center;
+                font-size: 1rem;
+            }
+        }
+    }
+}
 
 
