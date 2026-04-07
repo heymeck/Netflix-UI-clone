@@ -1,9 +1,12 @@
+body{
+    background-color: rgb(69, 77, 69);
+}
 h1{
     font-size: 2rem;
 }
 
 header {
-    height: 70dvh;
+    height: 90dvh;
 }
 
 .logo>img {
@@ -103,7 +106,7 @@ header {
             right: 0px;
             scale: 1;
             width: 100%;
-            padding: 5px 10px;
+            padding: 30px 10px;
             /* justify-content: center; */
             &>.section-heading1{ text-align: center; font-size: 2rem;}
             &>.section-heading2{text-align: center; font-size: 1.5rem;}
@@ -133,7 +136,7 @@ header {
 /*  section 2 starts from here */
 .section2{
 
-    display: flex;
+    /* display: flex; */
     position: relative;
     /* flex-wrap: wrap; */
     height: fit-content;
@@ -167,16 +170,84 @@ header {
     }
     /* Section 2 text box */
     &>.section2-textbox{
-        padding: 10px;
+        padding:30px 10px;
         &>.section2-heading3{
             text-align: center;
             font-size: 1rem;
         }
     }
+        
+    }
+}
+
+/* Section 3 starts from here */
+.section3{
+
+    /* display: flex; */
+    /* position: relative; */
+    /* flex-wrap: wrap; */
+    height: fit-content;
+    width: 100%;
+    min-height: 502px;
+    margin: 8px 0px;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+
+    &>.section3-sub-box {
+        width: 100%;
+        height:fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 10px;
+        justify-content: center;
+        gap: 50px;
+
+    /* Section 2 text box */
+    &>.section3-textbox{
+        padding: 10px;
+        width: auto;
+        position: static;
+        padding-left: 20px;
+
+        &>.section3-heading1{
+            line-height: normal;
+            font-size: 2rem;
+            text-align: center;
+        }
+        &>.section3-heading3{
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
+
+    &>.sacred-games-box{
+        width: 100%;
+        position: static;
+        display: flex;
+        justify-content: center;
+        scale: 1;
+
+        &>img{
+            width: 340px;
+            height: 255px;
+        }
+        &>.sg-video-box{
+            width: fit-content;
+            height: fit-content;
+            @media  screen and (min-width:400px) and (max-width:500px) {
+                .sg-video-box{left: 22%;}
+            }
 
 
+            &>video{
+                width: 220px;
+                position: relative;
+                top: 1%;
 
-
+            }
+        }
+    }
         
     }
 }
