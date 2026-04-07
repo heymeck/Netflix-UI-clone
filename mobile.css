@@ -1,7 +1,8 @@
-body{
+body {
     background-color: rgb(69, 77, 69);
 }
-h1{
+
+h1 {
     font-size: 2rem;
 }
 
@@ -21,9 +22,13 @@ header {
 .nav-buttons {
     margin-right: 10px;
 }
-.langLogo{
+
+.langLogo {
     width: fit-content;
-    &>.lang{display: none;}
+
+    &>.lang {
+        display: none;
+    }
 }
 
 .email-container {
@@ -48,6 +53,7 @@ header {
 .getstarted,
 .footer-getstarted {
     gap: 10px;
+    padding-top: 25%;
     justify-content: center;
 }
 
@@ -70,15 +76,19 @@ header {
     height: 38px;
     padding: 5px 10px;
     font-size: 1rem;
-    &>div{font-size: 1rem;}
-    &>img{
+
+    &>div {
+        font-size: 1rem;
+    }
+
+    &>img {
         height: 15px;
         width: 15px;
     }
 }
 
 /* Section starts from here */
-.section{
+.section {
 
     display: flex;
     position: relative;
@@ -93,7 +103,7 @@ header {
 
     &>.section-sub-box {
         width: 100%;
-        height:fit-content;
+        height: fit-content;
         display: flex;
         padding: 30px 0px;
         padding-top: 50px;
@@ -101,31 +111,40 @@ header {
         /* background-color: red; */
 
         /* section 1 text box */
-        & .sec1-text{
+        & .sec1-text {
             /* display: flex; */
             right: 0px;
             scale: 1;
             width: 100%;
             padding: 30px 10px;
+
             /* justify-content: center; */
-            &>.section-heading1{ text-align: center; font-size: 2rem;}
-            &>.section-heading2{text-align: center; font-size: 1.5rem;}
+            &>.section-heading1 {
+                text-align: center;
+                font-size: 2rem;
+            }
+
+            &>.section-heading2 {
+                text-align: center;
+                font-size: 1.5rem;
+            }
 
         }
 
         /* video tv box */
-        &>.video-tv-box{
+        &>.video-tv-box {
             width: 100%;
             scale: 1;
             position: relative;
             display: flex;
             overflow: hidden;
             left: 0px;
+
             /* justify-content: center; */
-            &>.tv-frame{
+            &>.tv-frame {
                 position: absolute;
                 /* width: 100%; */
-                  left: 50%;
+                left: 50%;
                 transform: translate(-50%);
             }
         }
@@ -134,7 +153,7 @@ header {
 
 
 /*  section 2 starts from here */
-.section2{
+.section2 {
 
     /* display: flex; */
     position: relative;
@@ -149,39 +168,43 @@ header {
 
     &>.section2-sub-box {
         width: 100%;
-        height:fit-content;
+        height: fit-content;
         display: flex;
         flex-wrap: wrap;
         padding: 0px 10px;
         justify-content: center;
-        & .section2-heading1{
+
+        & .section2-heading1 {
             font-size: 2rem;
             text-align: center;
             line-height: inherit;
         }
 
-    /* Section 2 Image box */
-    &> .section2-image-box{
-        top: 0px;
-        right: 0px;
-        &>.stranger-thing-box{
-            bottom:25px;
+        /* Section 2 Image box */
+        &>.section2-image-box {
+            top: 0px;
+            right: 0px;
+
+            &>.stranger-thing-box {
+                bottom: 25px;
+            }
         }
-    }
-    /* Section 2 text box */
-    &>.section2-textbox{
-        padding:30px 10px;
-        &>.section2-heading3{
-            text-align: center;
-            font-size: 1rem;
+
+        /* Section 2 text box */
+        &>.section2-textbox {
+            padding: 30px 10px;
+
+            &>.section2-heading3 {
+                text-align: center;
+                font-size: 1rem;
+            }
         }
-    }
-        
+
     }
 }
 
 /* Section 3 starts from here */
-.section3{
+.section3 {
 
     /* display: flex; */
     /* position: relative; */
@@ -196,82 +219,89 @@ header {
 
     &>.section3-sub-box {
         width: 100%;
-        height:fit-content;
+        height: fit-content;
         display: flex;
         flex-wrap: wrap;
         padding: 0px 10px;
         justify-content: center;
         gap: 50px;
 
-    /* Section 2 text box */
-    &>.section3-textbox{
-        padding: 10px;
-        width: auto;
-        position: static;
-        padding-left: 20px;
+        /* Section 2 text box */
+        &>.section3-textbox {
+            padding: 10px;
+            width: auto;
+            position: static;
+            padding-left: 20px;
 
-        &>.section3-heading1{
-            line-height: normal;
-            font-size: 2rem;
-            text-align: center;
-        }
-        &>.section3-heading3{
-            text-align: center;
-            font-size: 1rem;
-        }
-    }
+            &>.section3-heading1 {
+                line-height: normal;
+                font-size: 2rem;
+                text-align: center;
+            }
 
-    &>.sacred-games-box{
-        width: 100%;
-        position: static;
-        display: flex;
-        justify-content: center;
-        scale: 1;
-
-        &>img{
-            width: 340px;
-            height: 255px;
-        }
-        &>.sg-video-box{
-            width: fit-content;
-            height: fit-content;
-
-
-
-            &>video{
-                width: 220px;
-                position: relative;
-                top: 1%;
-
+            &>.section3-heading3 {
+                text-align: center;
+                font-size: 1rem;
             }
         }
-    }
-        
+
+        &>.sacred-games-box {
+            width: 100%;
+            position: static;
+            display: flex;
+            justify-content: center;
+            scale: 1;
+
+            &>img {
+                width: 340px;
+                height: 255px;
+            }
+
+            &>.sg-video-box {
+                width: fit-content;
+                height: fit-content;
+
+
+
+                &>video {
+                    width: 220px;
+                    position: relative;
+                    top: 1%;
+
+                }
+            }
+        }
+
     }
 }
 
 /* Section 4 starts from here */
 
-.section4{
+.section4 {
     height: fit-content;
-    &>.section4-sub-box{
+
+    &>.section4-sub-box {
         padding: 50px 10px;
         width: 100%;
         height: fit-content;
         flex-wrap: wrap;
-        & .kids-imagebox>img{
+
+        & .kids-imagebox>img {
             aspect-ratio: 4/3;
             width: 100%;
             height: 75vw;
         }
-        &>.section4-text-box{
+
+        &>.section4-text-box {
             padding: 20px 10px;
-            &>.section4-heading1{
+
+            &>.section4-heading1 {
                 text-align: center;
                 line-height: normal;
                 font-size: 2rem;
             }
-            &>h3{
+
+            &>h3 {
                 text-align: center;
                 font-size: 1rem;
             }
@@ -280,3 +310,57 @@ header {
 }
 
 
+/* Footer section starts from here */
+
+.footer-section1{
+    height: fit-content;
+}
+
+.list-box {
+    width: 100%;
+}
+
+.footer-email-container {
+    width: 100%;
+    padding: 20px 0px;
+
+    &>span{
+        display: inline-block;
+        padding: 20px 0px;
+    }
+    &>.footer-getstarted {
+        padding: 20px 0px;
+        margin: 0px;
+
+        &>input {
+
+            box-sizing: border-box;
+            height: 40px;
+            width: 275px;
+
+            &:focus-visible::placeholder {
+                color: transparent;
+            }
+        }
+
+        &>button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            text-wrap: nowrap;
+            height: 38px;
+            padding: 5px 10px;
+            font-size: 1rem;
+
+            &>div {
+                font-size: 1rem;
+            }
+
+            &>img {
+                height: 15px;
+                width: 15px;
+            }
+        }
+    }
+}

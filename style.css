@@ -670,3 +670,14 @@ header {
             @media  screen and (min-width:400px) and (max-width:500px) {
                 .sg-video-box{left: 22%;}
             }
+            @media  screen and (min-width:600px) and (max-width:800px) {
+                .list-box{
+                    width: 100%;
+                    &>.footer-buttonlist{
+                        padding: 0px 30px;
+                    }
+                }
+                .footer-getstarted{
+                    margin: 30px 0px;
+                }
+            }
