@@ -363,6 +363,18 @@ header {
     background-color: #000000;
 }
 
+/*  changed when styling for mobile */
+.section2-sub-box{
+    align-items: center;
+    & .stranger-thing-box{
+        bottom: 25px;
+    }
+    & .section2-textbox{
+        padding-right: 10px;
+    }
+}
+
+/* ends here */
 .section2-image-box {
     /* scale: .8; */
     top: 10px;
