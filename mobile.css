@@ -318,6 +318,9 @@ header {
 
 .list-box {
     width: 100%;
+    &>.footer-buttonlist{
+        padding: 0px 10px;
+    }
 }
 
 .footer-email-container {
@@ -361,6 +364,19 @@ header {
                 height: 15px;
                 width: 15px;
             }
+        }
+    }
+}
+
+.footer-section2{
+    &>.hyperlink-box{
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+        & .footer-sec2-list-item{
+            width: auto;
+            /* gap:10px; */
+            column-gap: 10px;
         }
     }
 }
